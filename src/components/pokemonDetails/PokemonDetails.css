@@ -1,0 +1,43 @@
+.details {
+  width: 350px;
+  height: 630px;
+  border: 1px solid #eee;
+  margin: auto 0;
+}
+
+.details__img {
+  display: block;
+  width: 90%;
+  height: 250px;
+  margin: 20px auto;
+  border: 1px solid #eee;
+  object-fit: cover;
+}
+
+.details__name {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.details__table {
+  width: 90%;
+  margin: 10px auto;
+  border: 1px solid #eee;
+  border-collapse: collapse;
+}
+
+.table__col {
+  border: 1px solid #eee;
+  text-align: center;
+  height: 35px;
+  line-height: 35px;
+}
+
+.loading {
+  margin: 250px auto;
+}
+
+.select {
+  width: max-content;
+  margin: 10px auto;
+}
