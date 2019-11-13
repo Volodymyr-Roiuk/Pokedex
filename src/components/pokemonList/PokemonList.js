@@ -18,7 +18,7 @@ const PokemonList = ({ loadPokemons, pokemons, pokemonsInfo, setPokemonsInfo, se
 
   //component did mount
   useEffect(() => {
-    loadPokemons('http://pokeapi.co/api/v2/pokemon/?limit=12');
+    loadPokemons('https://pokeapi.co/api/v2/pokemon/?limit=12');
     loadPokemonTypes('https://pokeapi.co/api/v2/type?limit=999');
   }, []);
 
