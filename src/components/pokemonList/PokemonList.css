@@ -1,0 +1,26 @@
+.pokemonsSection {
+  width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pokemonList {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-gap: 15px;
+}
+
+.loadMore {
+  margin: 10px auto;
+  display: block;
+  width: 780px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  color: #fff;
+  font-size: 24px;
+  line-height: 50px;
+  font-weight: bold;
+  border: none;
+}

@@ -1,0 +1,76 @@
+.pokemon {
+  width: 250px;
+  height: 350px;
+  border: 1px solid black;
+}
+
+.pokemon__img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  border: 1px solid #eee;
+  object-fit: cover ;
+}
+
+.pokemon__name {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.pokemon__sprites {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 5px 10px;
+}
+
+.pokemon__sprite {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 25px;
+  border: 1px solid #eee;
+}
+
+/*second classes for .pokemon__sprite */
+.grass {
+  background-color: lightgreen;
+}
+
+.poison {
+  background-color: mediumpurple;
+}
+
+.fire {
+  background-color: lightcoral;
+}
+
+.electric {
+ background-color: lightyellow;
+}
+
+.flying {
+  background-color: #83ebff;
+}
+
+.water {
+  background-color: #aef2ff;
+}
+
+.bug {
+  background-color: #baffcd;
+}
+
+.ground {
+  background-color: #7f7e61;
+}
+
+.fairy {
+  background-color: #fcbeff;
+}
+.default {
+  background-color: lightgray;
+}
